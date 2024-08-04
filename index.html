@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schools</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .hero-bg {
+        background-color: #FFEB3B;
+        border-radius: 0 0 50% 50%;
+      }
+      .icon-circle {
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      .bg-blue {
+        background-color: #0d6efd;
+      }
+      .bg-yellow {
+        background-color: #ffc107;
+      }
+      .bg-red {
+        background-color: #dc3545;
+      }
+      .bg-light-blue {
+        background-color: #007bff;
+      }
+    </style>
+</head>
+<body class="bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-primary fw-bold" href="#">Schools</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang Kita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Berita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-success ms-lg-3">PPDB</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5">
+    <div class="container d-flex flex-column-reverse flex-md-row align-items-center">
+      <div class="text-center text-md-start">
+        <h1 class="display-4 fw-bold text-dark">Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
+        <p class="lead text-secondary mt-3">
+          Jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna untuk kehidupan anda kedepannya agar lebih bermanfaat dalam hidup anda dan orang lain.
+        </p>
+        <a href="#" class="btn btn-success mt-4">Mulai Belajar</a>
+      </div>
+      <div class="position-relative mb-4 mb-md-0">
+        <div class="hero-bg position-absolute top-50 start-50 translate-middle w-100 h-100"></div>
+        <img src="img/orang1.png" alt="orang" class="img-fluid position-relative">
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan Sekolah Kami Section -->
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+      <h2 class="text-center mb-5">Keunggulan Sekolah Kami</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="icon-circle bg-yellow mb-3 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-book" width="2rem" height="2rem" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M1 2.828c.885-.37 2.152-.671 3.584-.671 1.058 0 2.074.15 2.915.421a.5.5 0 0 1 .001.95A8.29 8.29 0 0 0 4.584 3.5c-1.433 0-2.7.302-3.584.67V13.5c.885-.369 2.152-.67 3.584-.67 1.06 0 2.075.15 2.916.421a.5.5 0 1 1-.001.95c-.82-.266-1.805-.42-2.915-.42-1.432 0-2.699.302-3.584.671V2.828zM0 2.5a.5.5 0 0 1 .5-.5H8a.5.5 0 0 1 0 1H1v11h6.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5v-12zm9 0a.5.5 0 0 1 .5-.5H15.5a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-10z"/>
+            </svg>
+          </div>
+          <h3>Menggunakan Kurikulum Terbaru</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-circle bg-red mb-3 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-alarm" width="2rem" height="2rem" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+              <path d="M8 4a.5.5 0 0 1 .5.5v3.793l2.854 2.853a.5.5 0 0 1-.708.708l-3-3A.5.5 0 0 1 7.5 8V4.5A.5.5 0 0 1 8 4z"/>
+              <path d="M4.655 1.574a.5.5 0 0 1 .272.658A4.498 4.498 0 0 1 3.02 6.102a.5.5 0 0 1-.896-.449A5.498 5.498 0 0 0 4.655 1.574zM11.98 1.574a5.498 5.498 0 0 0 2.531 4.079.5.5 0 1 1-.896.449 4.498 4.498 0 0 1-1.907-3.87.5.5 0 0 1 .272-.658zM8 0a1.7 1.7 0 0 1 1.678 1.494c-.3-.039-.604-.069-.906-.09A4.498 4.498 0 0 0 8 0z"/>
+            </svg>
+          </div>
+          <h3>Efektivitas Waktu Saat Belajar Disekolah</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-circle bg-light-blue mb-3 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-music-note" width="2rem" height="2rem" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M6 0v11.5A3.5 3.5 0 1 1 5 10V3.567l-1.071.286a.5.5 0 1 1-.232-.971l1.5-.4A.5.5 0 0 1 6 3V0z"/>
+              <path d="M9 0v11.5A3.5 3.5 0 1 1 8 10V3.567l-1.071.286a.5.5 0 1 1-.232-.971l1.5-.4A.5.5 0 0 1 9 3V0z"/>
+            </svg>
+          </div>
+          <h3>Penyaluran Bakat dan Minat Siswa</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekolah Alam Insan Mulia Berkarya Section -->
+  <section class="py-5 bg-white">
+    <div class="container d-flex flex-column-reverse flex-md-row align-items-center">
+      <div class="text-center text-md-start">
+        <h2 class="h1 fw-bold text-dark">Sekolah Alam <br> Insan Mulia Berkarya</h2>
+        <p class="lead text-secondary mt-3">
+          Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik agar anak bisa memilih minatnya dan fokus mengembangkan minat tersebut. Sekolah ini didirikan sejak tahun 1989 dan terus berkembang.
+        </p>
+        <a href="#" class="btn btn-success mt-4">Mulai Belajar</a>
+      </div>
+      <div class="position-relative mb-4 mb-md-0">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background-color: #dc3545; border-radius: 0 0 50% 50%;"></div>
+        <img src="img/orang1.png" alt="Orang Membaca" class="img-fluid position-relative">
+      </div>
+    </div>
+  </section>
+
+  <!-- Kumpulan Kegiatan Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Kumpulan Kegiatan Sekolah</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/10.png" class="card-img-top" alt="Belajar Mengajar">
+            <div class="card-body">
+              <h5 class="card-title">Belajar Mengajar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/11.png" class="card-img-top" alt="Sharing Session">
+            <div class="card-body">
+              <h5 class="card-title">Sharing Session</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/12.png" class="card-img-top" alt="Kelulusan">
+            <div class="card-body">
+              <h5 class="card-title">Kelulusan</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Salurkan Minat Bakat Anak Section -->
+  <section class="py-5 bg-white">
+    <div class="container d-flex flex-column-reverse flex-md-row align-items-center">
+      <div class="text-center text-md-start">
+        <h2 class="h1 fw-bold text-dark">Salurkan <br> Minat Bakat Anak</h2>
+        <p class="lead text-secondary mt-3">
+          Kami membuka pendaftaran baru tahun ajaran 2022. segera daftarkan anak anda
+        </p>
+        <a href="#" class="btn btn-success mt-4">Mulai Belajar</a>
+      </div>
+      <div class="position-relative mb-4 mb-md-0">
+        <div class="position-absolute top-50 start-50 translate-middle w-100 h-100" style="background-color: #007bff; border-radius: 0 0 50% 50%;"></div>
+        <img src="img/orang1.png" alt="Orang Mengajar" class="img-fluid position-relative">
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Kerja Sama Section -->
+  <section class="py-5 bg-white">
+    <div class="container text-center">
+      <h2 class="text-center mb-5">Partner Kerja Sama</h2>
+      <p class="text-secondary mb-5">Kami Bekerja sama dengan berbagai lembaga di seluruh Indonesia untuk menyalurkan bakat siswa kami</p>
+      <div class="row">
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/4.png" alt="Partner 1" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/5.png" alt="Partner 2" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/6.png" alt="Partner 3" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/7.png" alt="Partner 4" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/8.png" alt="Partner 5" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-4 mb-4">
+          <img src="img/9.png" alt="Partner 6" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Inagata <span class="fw-normal fst-italic">Template</span></h5>
+          <p class="text-secondary">
+            Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-secondary"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-secondary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-secondary"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5>Informasi</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary text-decoration-none">Artikel</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Galeri</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Tentang</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary text-decoration-none">Tentang Kami</a></li>
+            <li><a href="#" class="text-secondary text-decoration-none">Hubungi Kami</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Kantor Kami</h5>
+          <address class="text-secondary">
+            Indonesia<br>
+            Unnamed road RT 01 RW 02<br>
+            Surabaya
+          </address>
+        </div>
+      </div>
+      <div class="text-center text-secondary mt-4">
+        <p>&copy; 2021. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
