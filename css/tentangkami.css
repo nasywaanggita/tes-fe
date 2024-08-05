@@ -1,0 +1,341 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #787878;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #2ecb89;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #2ecb89;
+  left: 0;
+  bottom: -5px;
+}
+
+.btn-ppob {
+  background-color: #2ecb89;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn-ppob:hover {
+  background-color: #28a978;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+.hero-section .hero-bg {
+  background-color: #ff5f5f;
+  border-radius: 50% 50% 0 0;
+  width: 80%;
+  height: 100%;
+}
+
+.image-container1 {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .image-container1 {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    margin-right: 250px;
+  }
+  .hero-section .hero-bg {
+    background-color: #ffe97f;
+    border-radius: 50% 50% 0 0;
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+  }
+}
+
+.text-secondary {
+  text-align: left;
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.text-kerja-sama {
+  text-align: center;
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.btn-hijau {
+  background: #2ecb89;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 50px;
+}
+
+.btn-hijau:hover {
+  background-color: #28a978;
+}
+
+.bg-dark-blue {
+  background-color: #153f5a;
+}
+
+.icon-circle {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.bg-yellow {
+  background-color: #ffc107;
+}
+
+.bg-red {
+  background-color: #ff5f5f;
+}
+
+.bg-light-blue {
+  background-color: #1fa7ff;
+}
+
+.keunggulan {
+  font-weight: 800;
+  max-width: 50%;
+  text-align: left;
+}
+.school-image {
+  position: relative;
+  z-index: 1;
+  max-width: 80%;
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .keunggulan {
+    max-width: 100%;
+    text-align: center;
+  }
+  .school-image {
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    margin-left: 200px;
+  }
+}
+
+.background-circle {
+  background-color: #ff5f5f;
+  border-radius: 50% 50% 0 0;
+}
+
+.text-container {
+  max-width: 100%;
+}
+.nama {
+  font-weight: 600;
+  margin-top: 3px;
+  text-align: left;
+}
+.jabatan {
+  text-align: left;
+}
+.keterangan {
+  max-width: 80%;
+  text-align: left;
+}
+.judul {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .background-circle {
+    margin-left: 100px;
+  }
+
+  .text-container {
+    text-align: center !important;
+    margin-top: 20px;
+  }
+  .nama {
+    font-weight: 600;
+    margin-top: 3px;
+    text-align: center;
+  }
+  .jabatan {
+    text-align: center;
+  }
+  .keterangan {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .judul {
+    text-align: center;
+  }
+}
+
+.card {
+  border-radius: 0.75rem;
+  color: #6c757d;
+}
+
+.card:hover {
+  background-color: #28a978;
+  color: white;
+}
+
+.tab-menu {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.tab-menu a {
+  color: #787878;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.tab-menu a.active,
+.tab-menu a:hover {
+  color: #2ecb89;
+}
+
+.tab-menu a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #2ecb89;
+  left: 0;
+  bottom: 0;
+}
+
+.circle-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #6c757d;
+}
+
+.circle-icon i {
+  font-size: 18px;
+  color: white;
+}
+
+.circle-icon:hover {
+  background-color: #28a978;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.footer-section .logo img {
+  max-height: 50px;
+  margin-right: 15px;
+}
+
+.footer-section .social-icons a {
+  color: #6c757d;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-section .social-icons a:hover {
+  color: #2ecb89;
+}
+
+.footer-section .text-secondary {
+  color: #6c757d !important;
+}
+
+.profile-video {
+  align-items: center;
+  border-radius: 20px;
+}
+
+.keunggulan-sekolah {
+  display: flex;
+  margin-left: 200px;
+}
+.keunggulan {
+  margin-right: 200px;
+  margin-top: 100px;
+}
+.poin {
+  display: flex;
+}
+.text {
+  display: block;
+  text-align: left;
+  max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  .keunggulan-sekolah {
+    display: block;
+  }
+
+  .poin {
+    display: flex;
+    margin-right: 200px;
+  }
+  .text {
+    display: block;
+    text-align: left;
+    max-width: 60%;
+  }
+}
